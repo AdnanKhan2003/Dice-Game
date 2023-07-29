@@ -169,3 +169,87 @@ main {
 .hidden {
   display: none;
 }
+
+@media (max-width: 1029px) {
+  main {
+    width: 80rem;
+  }
+}
+
+@media (max-width: 876px) {
+  body {
+    height: auto;
+  }
+  main {
+    flex-direction: column;
+    margin: 10rem auto;
+    height: auto;
+  }
+  .name {
+    font-size: 3rem;
+  }
+  .score {
+    font-size: 6rem;
+  }
+  .current {
+    padding: 1.4rem 0;
+    width: 50%;
+    margin: 2rem auto 26rem;
+  }
+  .player {
+    padding: 15rem 5rem 0;
+  }
+
+  .dice {
+    left: 50%;
+    top: 30%;
+  }
+  .btn--hold,
+  .btn--roll,
+  .btn--new {
+    padding: 0.5rem 2rem;
+  }
+  .btn {
+    position: absolute;
+    /* top: 50%; */
+  }
+  .btn--hold {
+    top: 47.8%;
+  }
+  .btn--new {
+    top: 2%;
+  }
+  .btn--roll {
+    top: 41%;
+    left: 50%;
+  }
+}
+
+@media (max-width: 825px) {
+  main {
+    width: 90%;
+  }
+}
+@media (max-width: 600px) {
+  .current {
+    width: 70%;
+  }
+}
+@media (max-width: 470px) {
+  main {
+    width: 95%;
+  }
+}
+@media (max-width: 371px) {
+  .btn {
+    width: 75%;
+  }
+}
+@media (max-width: 300px) {
+  main {
+    width: 100%;
+  }
+  .btn {
+    width: 80%;
+  }
+}
